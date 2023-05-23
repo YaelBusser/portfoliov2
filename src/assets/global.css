@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=La+Belle+Aurore&family=Lato&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #1d1d1d;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.auto {
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(31, 28, 28);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px 10px 10px 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
